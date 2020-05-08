@@ -85,11 +85,11 @@ So here is an example of the mesures that has to be taken in order to run a manu
 ### Deployments
 
 1. Production
-   - [production](https://scope-manual-production.vandyk.tech/)
-   - [production - unconfigured](vercel-landscaping.now.sh)
+   - [configured domain](https://scope-manual-production.vandyk.tech/)
+   - [unconfigured domain](https://vercel-landscaping.now.sh)
 2. Staging
-   - [staging](https://scope-manual-staging.vandyk.tech/)
-   - [staging - unconfigured](vercel-landscaping-staging.now.sh)
+   - [configured domain](https://scope-manual-staging.vandyk.tech/)
+   - [unconfigured domain](https://vercel-landscaping-staging.now.sh)
 
 # Github
 
