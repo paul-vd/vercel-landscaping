@@ -70,3 +70,39 @@ yarn release:staging
 ### Unconfigured ( _defaults to production_ )
 
 ![Production/Unconfigured Domain Configuration](./public/unconfigured.png)
+
+# Deployments
+
+So here is an example of the mesures that has to be taken in order to run a manual setup, vs git integrations
+
+# Manual Setup
+
+### Projects
+
+- vercel-landscaping (`production`)
+- vercel-landscaping-staging (`staging`)
+
+### Deployments
+
+1. Production
+   - [production](https://scope-manual-production.vandyk.tech/)
+   - [production - unconfigured](vercel-landscaping.now.sh)
+2. Staging
+   - [staging](https://scope-manual-staging.vandyk.tech/)
+   - [staging - unconfigured](vercel-landscaping-staging.now.sh)
+
+# Github
+
+### Projects
+
+- vercel-landscaping-github (`production` & `staging`)
+
+### Deployments
+
+- [production](https://scope-github-prod.vandyk.tech)
+- [staging](https://scope-github-staging.vandyk.tech)
+- [unconfigured](https://vercel-landscaping-github.now.sh)
+
+<br />
+
+> So as you can see this really becomes inefficient and can be resolved by simply allowing domains to be scoped to a `Production` or `Preview` when not using git integrations
