@@ -141,7 +141,7 @@ const Home = ({ DEPLOY_ENV }) => {
 Home.getInitialProps = async ({ req }) => {
   const hostname =
     process.env.NODE_ENV === "production"
-      ? `https://${req.hostname.location}`
+      ? `https://${req.headers.host}`
       : "http://localhost:3000";
   const res = await fetch(`${hostname}/api`);
   const { DEPLOY_ENV } = await res.json();
