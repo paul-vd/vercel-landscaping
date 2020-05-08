@@ -29,7 +29,7 @@ So for my current solution, each Project I have requires 2x Vercel Projects to c
 # Current Workaround
 
 I first have to run a landscape preparation to set up the current `project id` in the `.now/project.json`
-The landscape replaces the `__NOW_PROJECT_ID__` with the correct variable depending on the scope that I chose ( `production` | `staging`
+The landscape replaces the `__NOW_PROJECT_ID__` with the correct variable depending on the scope that I chose, `production` or `staging`
 
 <br />
 
@@ -79,23 +79,23 @@ So here is an example of the mesures that has to be taken in order to run a manu
 
 ### Projects
 
-- vercel-landscaping (`production`)
-- vercel-landscaping-staging (`staging`)
+- [vercel-landscaping](https://vercel-landscaping.now.sh/_logs) (`production`)
+- [vercel-landscaping-staging](https://vercel-landscaping-staging.now.sh/_logs) (`staging`)
 
 ### Deployments
 
-1. Production
-   - [configured domain](https://scope-manual-production.vandyk.tech/)
-   - [unconfigured domain](https://vercel-landscaping.now.sh)
-2. Staging
-   - [configured domain](https://scope-manual-staging.vandyk.tech/)
-   - [unconfigured domain](https://vercel-landscaping-staging.now.sh)
+- Production
+  - [configured domain](https://scope-manual-production.vandyk.tech/)
+  - [unconfigured domain](https://vercel-landscaping.now.sh)
+- Staging
+  - [configured domain](https://scope-manual-staging.vandyk.tech/)
+  - [unconfigured domain](https://vercel-landscaping-staging.now.sh)
 
 # Github
 
 ### Projects
 
-- vercel-landscaping-github (`production` & `staging`)
+- [vercel-landscaping-github](https://vercel-landscaping-github.now.sh/_logs) (`production` & `staging`)
 
 ### Deployments
 
