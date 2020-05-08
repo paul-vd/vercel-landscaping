@@ -1,0 +1,19 @@
+{
+  "name": "vercel-landscaping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "landscape_preparation": "sh scripts/landscape.sh",
+    "release:prod": "yarn landscape_preparation production && yarn deploy",
+    "release:staging": "yarn landscape_preparation staging && yarn deploy",
+    "deploy": "now --prod"
+  },
+  "dependencies": {
+    "next": "9.3.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
